@@ -6,5 +6,5 @@ next Output tab.
 You can view the page on image.png in the directory.
 
 #Requirements
-1. jQuery 
+1. jQuery: 
   You can download Jquery through npm or download directly via their website.
