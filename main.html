@@ -1,0 +1,54 @@
+<html>
+	
+
+	<head>
+		<title>CODE PLAYER</title>
+
+		<script type="text/javascript" src = "jquery.js"></script>
+		<!-- <script type="text/javascript" src = "jquery-ui-1.12.1/jquery-ui.js"></script> -->
+
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	<body>
+		
+		<div id = "topbar">
+			<div>
+				<img src="logo.svg" id = "logo">
+			</div>
+			<div id = 'title'>
+				Codeplayer 
+			</div>
+			<div id = "buttonContainer">
+				<div class = "button active" id = "html">
+					HTML
+
+					
+				</div>
+				<div class = "button" id = "css">
+					
+					CSS
+				</div>
+				<div class = "button" id = "javascript">
+					JavaScript
+					
+				</div>
+				<div class = "button active" id = "output">
+					Output
+					
+				</div>
+			</div>
+		</div>
+
+		<div id = "container">
+			
+			<textarea = id = "htmlarea" class = "panel "><p id = "para">Hello World with HTML</p>
+			</textarea>
+			<textarea = id = "cssarea" class = "panel hidden">p{color: red;}
+			</textarea>
+			<textarea = id = "javascriptarea" class = "panel hidden">document.getElementById("para").innerHTML = "Hey"</textarea>
+			<iframe id = "outputarea" class = "panel">HTML</iframe>
+		</div>
+		<script type="text/javascript" src = "javascript.js">
+		</script>
+	</body>
+</html>
